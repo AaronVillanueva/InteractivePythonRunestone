@@ -1,0 +1,8 @@
+import turtle
+
+def estrella():
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+estrella()

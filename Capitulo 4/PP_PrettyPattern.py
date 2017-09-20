@@ -18,11 +18,20 @@ def cuadrado(t,lado):
     for i in range(4):
         t.forward(lado)
         t.right(90)
+
+def reposicionar(t):
+    t.penup()
+    t.home()
+    t.pendown()
+
 def Main():
     relojInicial(Maki,50)
     Maki.left(90)
     Maki.backward(50)
     Maki.right(90)
     circulo(Maki)
+    reposicionar(Maki)
+    Maki.forward(50)
+    Maki.right(90)
     cuadrado(Maki,100)
 Main()
