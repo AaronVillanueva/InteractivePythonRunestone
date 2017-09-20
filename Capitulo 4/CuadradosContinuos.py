@@ -1,10 +1,10 @@
 import turtle
 
 wn = turtle.Screen()
-wn.bgcolor("lightgreen")
+wn.bgcolor("white")
 
 andii = turtle.Turtle()
-andii.color("purple")
+andii.color("red")
 
 def dibujarCuadrado(t, lado):
     for i in range(4):

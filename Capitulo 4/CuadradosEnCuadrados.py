@@ -3,9 +3,8 @@
 import turtle
 
 wn = turtle.Screen()
-wn.bgcolor("lightgreen")
-
-turtle.color("purple")
+wn.bgcolor("white")
+turtle.color("red")
 
 def dibujarCuadrado (lado):
     for i in range(4):
