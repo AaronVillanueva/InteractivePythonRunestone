@@ -1,3 +1,4 @@
+#encoding: UTF-8
 def numeroPrimo(n):
     if n%2==0 or n%3==0 or n%5==0:
         conclusion=False
